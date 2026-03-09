@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy - Quick Check App</title>
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 860px;
+        margin: 40px auto;
+        padding: 0 24px 60px;
+        line-height: 1.75;
+        color: #222;
+        background: #fff;
+      }
+      h1 {
+        font-size: 2em;
+        margin-bottom: 0.2em;
+      }
+      .updated {
+        color: #666;
+        font-size: 0.9em;
+        margin-top: 0;
+      }
+      h2 {
+        font-size: 1.35em;
+        margin-top: 2.2em;
+        border-bottom: 1px solid #e0e0e0;
+        padding-bottom: 0.3em;
+      }
+      h3 {
+        font-size: 1.1em;
+        margin-top: 1.5em;
+      }
+      h4 {
+        font-size: 1em;
+        margin-top: 1.2em;
+      }
+      a {
+        color: #1a73e8;
+      }
+      ul {
+        padding-left: 1.6em;
+      }
+      li {
+        margin-bottom: 0.4em;
+      }
+      .permission-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1em 0;
+        font-size: 0.95em;
+      }
+      .permission-table th,
+      .permission-table td {
+        border: 1px solid #ddd;
+        padding: 10px 14px;
+        text-align: left;
+        vertical-align: top;
+      }
+      .permission-table th {
+        background: #f5f5f5;
+        font-weight: bold;
+      }
+      .permission-table tr:nth-child(even) td {
+        background: #fafafa;
+      }
+      .highlight {
+        background: #f0f7ff;
+        border-left: 4px solid #1a73e8;
+        padding: 12px 16px;
+        margin: 1em 0;
+        border-radius: 0 4px 4px 0;
+      }
+      footer {
+        margin-top: 3em;
+        font-size: 0.85em;
+        color: #888;
+        border-top: 1px solid #eee;
+        padding-top: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: March 09, 2026</p>
+
+    <p>
+      This Privacy Policy describes how <strong>EDGE SA</strong> ("the Company",
+      "We", "Us", "Our") collects, uses, and discloses information when you use
+      the <strong>Quick Check App</strong>
+      mobile application ("the Application", "the Service"). Please read this
+      policy carefully before using the Application.
+    </p>
+
+    <div class="highlight">
+      <strong>Summary:</strong> Quick Check App is a
+      <strong>B2B maintenance management tool</strong>
+      used exclusively by authorized field technicians employed by or contracted
+      with EDGE SA. It is not a public consumer app. Data collected is used
+      solely to support maintenance operations.
+    </div>
+
+    <!-- ─────────────────────────────────────── -->
+    <h2>1. Who We Are</h2>
+
+    <p>
+      <strong>EDGE SA</strong><br />
+      Carlos Roque 3545, Argentina<br />
+      Email: <a href="mailto:info@edgeinst.com.ar">info@edgeinst.com.ar</a
+      ><br />
+      Website:
+      <a
+        href="https://edgeinst.com.ar"
+        target="_blank"
+        rel="noopener noreferrer"
+        >https://edgeinst.com.ar</a
+      >
+    </p>
+
+    <!-- ─────────────────────────────────────── -->
+    <h2>2. Who This App Is For</h2>
+
+    <p>
+      Quick Check App is designed exclusively for
+      <strong>authorized maintenance technicians</strong> of EDGE SA. Access to
+      the Application requires a valid Technician ID issued by EDGE SA. The
+      Application is <strong>not intended for the general public</strong> and is
+      not directed to individuals under the age of 18.
+    </p>
+
+    <!-- ─────────────────────────────────────── -->
+    <h2>3. What Data We Collect</h2>
+
+    <h3>3.1 Authentication Data</h3>
+    <ul>
+      <li>
+        <strong>Technician ID:</strong> A unique identifier provided by EDGE SA,
+        entered on first launch and stored securely on the device using
+        encrypted storage (<code>expo-secure-store</code>). This is used to
+        authenticate the technician and retrieve their associated profile and
+        permissions.
+      </li>
+    </ul>
+
+    <h3>3.2 Location Data</h3>
+    <ul>
+      <li>
+        <strong>Geographic location (precise GPS):</strong> Collected while
+        performing maintenance tasks to record the exact location where each
+        task was carried out. This data is associated with maintenance reports
+        submitted through the Application.
+      </li>
+      <li>
+        Location is only accessed while the app is in use
+        (<em>when-in-use</em>).
+      </li>
+    </ul>
+
+    <h3>3.3 Camera Data</h3>
+    <ul>
+      <li>
+        <strong>QR code scanning:</strong> The camera is used exclusively to
+        scan QR codes affixed to industrial equipment for fast identification
+        and data pre-filling in maintenance forms. No images or video are stored
+        or transmitted.
+      </li>
+    </ul>
+
+    <h3>3.4 Audio Playback</h3>
+    <p>
+      The Application uses <code>expo-audio</code> exclusively to
+      <strong>play</strong> a short beep sound as feedback when a QR code is
+      successfully scanned. No audio is recorded, no microphone access is
+      required, and no audio data is collected or transmitted.
+    </p>
+
+    <h3>3.5 Maintenance and Operational Data</h3>
+    <ul>
+      <li>
+        Maintenance checklists and inspection reports completed by the
+        technician.
+      </li>
+      <li>Equipment identifiers and status records.</li>
+      <li>Timestamps and dates of each maintenance activity.</li>
+      <li>Replenishment and calibration records.</li>
+    </ul>
+
+    <h3>3.6 Device and Technical Data</h3>
+    <ul>
+      <li>Device model, operating system version.</li>
+      <li>Application version.</li>
+      <li>Error logs and crash diagnostics (used to improve app stability).</li>
+    </ul>
+
+    <h3>3.7 Data We Do NOT Collect</h3>
+    <ul>
+      <li>
+        Name, email address, or personal contact details of the technician.
+      </li>
+      <li>Payment or financial information.</li>
+      <li>Social media profiles or external account data.</li>
+      <li>
+        Background location (location is only accessed while the app is open).
+      </li>
+    </ul>
+
+    <!-- ─────────────────────────────────────── -->
+    <h2>4. Device Permissions</h2>
+
+    <table class="permission-table">
+      <thead>
+        <tr>
+          <th>Permission</th>
+          <th>Why it is needed</th>
+          <th>When it is used</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <strong>Camera</strong><br /><code>android.permission.CAMERA</code
+            ><br /><code>NSCameraUsageDescription</code>
+          </td>
+          <td>Scan QR codes on equipment to auto-fill maintenance forms.</td>
+          <td>Only when the technician opens the QR scanner screen.</td>
+        </tr>
+        <tr>
+          <td>
+            <strong>Fine &amp; Coarse Location</strong><br /><code
+              >ACCESS_FINE_LOCATION</code
+            ><br /><code>ACCESS_COARSE_LOCATION</code><br /><code
+              >NSLocationWhenInUseUsageDescription</code
+            >
+          </td>
+          <td>Record the exact GPS coordinates of each maintenance task.</td>
+          <td>Only while the app is in the foreground and a task is active.</td>
+        </tr>
+        <tr>
+          <td><strong>Audio Playback</strong><br /><code>expo-audio</code></td>
+          <td>
+            Plays a beep sound as feedback when a QR code is successfully
+            scanned. No microphone or recording is involved.
+          </td>
+          <td>Only when a QR code scan succeeds.</td>
+        </tr>
+        <tr>
+          <td>
+            <strong>Vibrate</strong><br /><code
+              >android.permission.VIBRATE</code
+            >
+          </td>
+          <td>Provide haptic feedback on notifications and confirmations.</td>
+          <td>For brief vibration feedback within the app.</td>
+        </tr>
+        <tr>
+          <td>
+            <strong>Background tasks</strong><br /><code
+              >UIBackgroundModes: fetch, process</code
+            >
+          </td>
+          <td>
+            Sync pending maintenance reports when connectivity is restored after
+            offline use.
+          </td>
+          <td>
+            Periodically in the background when there are pending sync tasks.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>
+      All permissions are used
+      <strong>strictly for operational functionality</strong> and
+      <strong>not for advertising, profiling, or tracking</strong>. You can
+      revoke any permission at any time through your device's system settings.
+    </p>
+
+    <!-- ─────────────────────────────────────── -->
+    <h2>5. How We Use Your Data</h2>
+
+    <ul>
+      <li>
+        To authenticate the technician and provide access to the Application.
+      </li>
+      <li>
+        To create and store maintenance, inspection, and replenishment records.
+      </li>
+      <li>
+        To associate location data with maintenance activities for operational
+        traceability.
+      </li>
+      <li>
+        To synchronize records with Company servers when an internet connection
+        is available.
+      </li>
+      <li>
+        To detect and resolve technical issues and crashes in the Application.
+      </li>
+      <li>
+        To comply with legal and regulatory obligations related to industrial
+        maintenance records.
+      </li>
+    </ul>
+
+    <p>
+      We do <strong>not</strong> use your data for advertising, behavioural
+      profiling, or any purpose unrelated to maintenance operations.
+    </p>
+
+    <!-- ─────────────────────────────────────── -->
+    <h2>6. Third-Party Services</h2>
+
+    <p>The Application uses the following third-party service:</p>
+
+    <h3>Losant IoT Platform</h3>
+    <p>
+      We use
+      <a href="https://losant.com" target="_blank" rel="noopener noreferrer"
+        >Losant</a
+      >
+      (losant.com) as a backend platform for:
+    </p>
+    <ul>
+      <li>
+        Technician authentication via webhook (validation of Technician ID and
+        token issuance).
+      </li>
+      <li>Transmission and storage of maintenance report data.</li>
+      <li>Industrial device monitoring and management.</li>
+    </ul>
+    <p>
+      Data transmitted to Losant is subject to
+      <a
+        href="https://www.losant.com/privacy"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Losant's Privacy Policy</a
+      >. EDGE SA maintains a data processing agreement with Losant to ensure
+      appropriate data protection.
+    </p>
+
+    <p>
+      No other third-party analytics, advertising SDKs, or tracking libraries
+      are used.
+    </p>
+
+    <!-- ─────────────────────────────────────── -->
+    <h2>7. Local Data Storage</h2>
+
+    <p>The Application stores data locally on the device using:</p>
+    <ul>
+      <li>
+        <strong>Encrypted secure storage</strong>
+        (<code>expo-secure-store</code>): for the Technician ID and
+        authentication tokens.
+      </li>
+      <li>
+        <strong>Local SQLite database</strong> (<code>expo-sqlite</code>): for
+        offline storage of maintenance records pending synchronization.
+      </li>
+    </ul>
+    <p>
+      Data stored locally is protected by the device's hardware-level encryption
+      where available.
+    </p>
+
+    <!-- ─────────────────────────────────────── -->
+    <h2>8. Data Sharing and Disclosure</h2>
+
+    <p>
+      We do <strong>not sell, rent, or trade</strong> Personal Data to third
+      parties.
+    </p>
+
+    <p>We may share data only in the following circumstances:</p>
+    <ul>
+      <li>
+        <strong>With authorized Service Providers:</strong> Losant, as described
+        in Section 6, to operate the backend infrastructure of the Application.
+      </li>
+      <li>
+        <strong>Within the Company:</strong> With EDGE SA personnel who need
+        access to maintenance records for operational and supervisory purposes.
+      </li>
+      <li>
+        <strong>Legal requirements:</strong> If required by applicable law,
+        court order, or governmental authority.
+      </li>
+      <li>
+        <strong>Business transfers:</strong> In the event of a merger,
+        acquisition, or sale of Company assets, data may be transferred to the
+        acquiring entity under equivalent privacy protections.
+      </li>
+    </ul>
+
+    <!-- ─────────────────────────────────────── -->
+    <h2>9. Data Retention</h2>
+
+    <ul>
+      <li>
+        <strong>Authentication tokens:</strong> Stored on-device for the
+        duration of the active session. Cleared upon logout or uninstallation.
+      </li>
+      <li>
+        <strong>Maintenance records:</strong> Retained for as long as required
+        by EDGE SA's operational and legal obligations (typically up to 5 years
+        for industrial maintenance records).
+      </li>
+      <li>
+        <strong>Usage logs and diagnostics:</strong> Retained for up to 24
+        months.
+      </li>
+    </ul>
+
+    <p>
+      Upon termination of a technician's relationship with EDGE SA, account data
+      will be deactivated promptly and deleted within 24 months, unless legal
+      obligations require longer retention.
+    </p>
+
+    <!-- ─────────────────────────────────────── -->
+    <h2>10. Data Security</h2>
+
+    <p>
+      We implement reasonable and appropriate technical and organizational
+      security measures to protect Personal Data against unauthorized access,
+      disclosure, alteration, or destruction. These include:
+    </p>
+    <ul>
+      <li>Encrypted local storage for sensitive authentication credentials.</li>
+      <li>
+        HTTPS/TLS for all data transmission between the Application and backend
+        servers.
+      </li>
+      <li>
+        Access controls limiting data access to authorized EDGE SA personnel.
+      </li>
+    </ul>
+    <p>
+      No method of electronic transmission or storage is 100% secure. In the
+      event of a data breach that affects your rights, we will notify affected
+      users as required by applicable law.
+    </p>
+
+    <!-- ─────────────────────────────────────── -->
+    <h2>11. International Data Transfers</h2>
+
+    <p>
+      Data processed by the Application may be transferred to and stored on
+      servers located outside Argentina. Where such transfers occur, We take
+      reasonable steps to ensure your data receives equivalent protection,
+      including through contractual safeguards with Service Providers.
+    </p>
+
+    <!-- ─────────────────────────────────────── -->
+    <h2>12. Your Rights</h2>
+
+    <p>As a user of the Application, you have the right to:</p>
+    <ul>
+      <li><strong>Access</strong> the Personal Data we hold about you.</li>
+      <li><strong>Correct</strong> inaccurate or incomplete data.</li>
+      <li>
+        <strong>Request deletion</strong> of your Personal Data (subject to
+        legal retention requirements).
+      </li>
+      <li>
+        <strong>Object</strong> to or restrict certain processing activities.
+      </li>
+      <li>
+        <strong>Withdraw consent</strong> for data collected based on consent
+        (e.g., location, camera), by revoking the permission in device settings.
+      </li>
+    </ul>
+    <p>
+      To exercise any of these rights, contact us at
+      <a href="mailto:info@edgeinst.com.ar">info@edgeinst.com.ar</a>. We will
+      respond within 30 days.
+    </p>
+
+    <!-- ─────────────────────────────────────── -->
+    <h2>13. Children's Privacy</h2>
+
+    <p>
+      The Application is not directed to individuals under the age of 18. We do
+      not knowingly collect any data from minors. If you believe a minor has
+      provided data through the Application, please contact us immediately and
+      we will delete that information.
+    </p>
+
+    <!-- ─────────────────────────────────────── -->
+    <h2>14. Changes to This Privacy Policy</h2>
+
+    <p>
+      We may update this Privacy Policy from time to time to reflect changes in
+      our practices or applicable law. Updates will be posted on this page with
+      a revised "Last updated" date. Material changes will be communicated to
+      users via in-app notification or email where feasible. Continued use of
+      the Application after changes are posted constitutes acceptance of the
+      updated policy.
+    </p>
+
+    <!-- ─────────────────────────────────────── -->
+    <h2>15. Contact Us</h2>
+
+    <p>
+      If you have any questions, concerns, or requests regarding this Privacy
+      Policy, contact us:
+    </p>
+    <ul>
+      <li>
+        Email: <a href="mailto:info@edgeinst.com.ar">info@edgeinst.com.ar</a>
+      </li>
+      <li>
+        Website:
+        <a
+          href="https://edgeinst.com.ar"
+          target="_blank"
+          rel="noopener noreferrer"
+          >https://edgeinst.com.ar</a
+        >
+      </li>
+      <li>Address: EDGE SA, Carlos Roque 3545, Argentina</li>
+    </ul>
+
+    <footer>
+      &copy; 2026 EDGE SA &mdash; Quick Check App &mdash; Package:
+      ar.com.edgeinst.quickcheckapp &mdash; Version 2.0.0
+    </footer>
+  </body>
+</html>

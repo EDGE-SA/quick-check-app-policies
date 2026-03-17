@@ -188,8 +188,8 @@
 
     <h3>3.6 Device and Technical Data</h3>
     <ul>
-      <li>Device model, operating system version.</li>
-      <li>Application version.</li>
+      <li>Device model, operating system version and Application version.</li>
+      <li><strong>Network Connectivity:</strong> We monitor connectivity status (via NetInfo) to manage offline data queuing and synchronization.</li>
       <li>Error logs and crash diagnostics (used to improve app stability).</li>
     </ul>
 
@@ -268,7 +268,7 @@
             offline use.
           </td>
           <td>
-            Periodically in the background when there are pending sync tasks.
+            Periodically in the background cuando hay tareas de sincronización pendientes.
           </td>
         </tr>
       </tbody>
@@ -276,6 +276,10 @@
 
     <p>
       Background tasks are used strictly for data synchronization purposes and do not access location data or any device sensors while the app is running in the background.
+    </p>
+
+    <p>
+      <em>Note: The application utilizes standard technical libraries (such as React Native Screens and Gesture Handler) to manage the user interface and navigation; these do not access, collect, or store any personal data.</em>
     </p>
 
     <p>
@@ -532,7 +536,7 @@
 
     <footer>
       &copy; 2026 EDGE SA &mdash; Quick Check App &mdash; Package:
-       com.aandino.quickCheckApp &mdash; Version 1.0.1
+      com.aandino.quickCheckApp &mdash; Version 1.0.1
     </footer>
   </body>
 </html>

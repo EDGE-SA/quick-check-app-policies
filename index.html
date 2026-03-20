@@ -135,11 +135,7 @@
     <h3>3.1 Authentication Data</h3>
     <ul>
       <li>
-        <strong>Technician ID:</strong> A unique identifier provided by EDGE SA,
-        entered on first launch and stored securely on the device using
-        encrypted storage (<code>expo-secure-store</code>). This is used to
-        authenticate the technician and retrieve their associated profile and
-        permissions.
+       <strong>Technician ID, Full Name, and Business Email:</strong> This information is pre-registered by EDGE SA for account management and is accessed upon login. The Application uses these identifiers to authenticate the technician, personalize the interface, and associate maintenance reports with the responsible professional. This data is stored securely on the device using encrypted storage (expo-secure-store).
       </li>
     </ul>
 
@@ -194,16 +190,15 @@
     </ul>
 
     <h3>3.7 Data We Do NOT Collect</h3>
-    <ul>
-      <li>
-        Direct personal identifiers such as name, email address, or personal contact details of the technician.
-      </li>
-      <li>Payment or financial information.</li>
-      <li>Social media profiles or external account data.</li>
-      <li>
-        Background location (location is only accessed while the app is open).
-      </li>
-    </ul>
+<ul>
+    <li>Personal contact details unrelated to the business entity (e.g., personal home addresses or private phone numbers).</li>
+    <li>Payment or financial information.</li>
+    <li>Social media profiles or external account data.</li>
+    <li>Background location (location is only accessed while the application is open and in use).</li>
+</ul>
+<p>
+    While the Application processes business identifiers (Technician ID, Name, and Email), these are used strictly for operational purposes within EDGE SA systems and are not shared with third parties for marketing or tracking.
+</p>
 
     <p>
       While we do not collect direct personal identifiers, certain operational data (such as Technician ID and location data)
